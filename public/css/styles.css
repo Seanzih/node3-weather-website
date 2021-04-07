@@ -65,3 +65,11 @@ button {
 .mainContent{
     text-align: center;
 }
+.mainContentab{
+    text-align: center;
+}
+.meImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
