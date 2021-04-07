@@ -11,9 +11,9 @@ const forecast = document.querySelector('#forecast')
 
 
 const changeInterface = (data)=> {
-    document.querySelector('#mainLocation').textContent = `${data.location.country}`
-    document.querySelector('#timeZone').textContent = data.location.localtime;
-    document.querySelector('#city').textContent = data.location.name
+    document.querySelector('#mainLocation').textContent = `City:${data.location.country}`
+    document.querySelector('#timeZone').textContent = `$Timezone:{data.location.localtime}`;
+    document.querySelector('#city').textContent = `Location:${data.location.name}`
     document.querySelector('#forecast').textContent = `It is currently  ${data.current.weather_descriptions} At ${data.location.name} with ${data.current.temperature} degress out. There is a ${data.current.precip}% chance of rain.`
 }
 const changeMainLine = (main) => {
