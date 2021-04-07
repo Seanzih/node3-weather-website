@@ -63,6 +63,8 @@ button {
 }
 
 .mainContent{
+    width: 590px;
+    height: 301px;
     text-align: center;
     background-image: url('https://image.freepik.com/free-vector/shiny-blue-background_1123-6.jpg');
 }
